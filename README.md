@@ -1,101 +1,55 @@
-<<<<<<< HEAD
-# 🖐️ Hand Gesture Recognition System
+# 👁️ Computer Vision & Live Tracking Projects
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![YOLOv11](https://img.shields.io/badge/YOLO-v11-purple)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Tracking-orange)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## 📖 Overview
+**Author:** Vishva  
+**Focus:** Real-time Human-Computer Interaction (HCI) & Biometric Analysis.
 
-This project implements a real-time **Hand Gesture Recognition** system using **Google's MediaPipe** framework and **OpenCV**. It detects hand landmarks via a webcam feed, tracks movements, and classifies specific gestures (e.g., Open Palm, Closed Fist, Thumbs Up, etc.) with high accuracy and low latency.
+---
 
-This is a lightweight solution ideal for touchless interfaces, sign language translation prototypes, or human-computer interaction (HCI) research.
+## 📂 Project Portfolio
 
-## 🚀 Features
+### 1. [TitanPose Advanced (YOLOv11)](./TitanFocus_YOLO) ⚡
+**Military-Grade Human Behavior Analysis System.** A high-performance tracking engine designed for gym analytics and safety monitoring. unlike standard trackers, this uses vector geometry to analyze specific spinal and knee angles in real-time.
 
-* **Real-time Tracking:** Detects single or multiple hands with low latency.
-* **21 Landmark Detection:** visualizes the skeletal structure of the hand.
-* **Gesture Classification:** Logic to identify specific hand poses.
-* **FPS Counter:** Displays real-time frames per second to monitor performance.
-* **Robust:** Works reasonably well in varying lighting conditions.
+* **🧠 Tech Stack:** `YOLOv11` (Ultralytics), `OpenCV`, `Vector Math`, `NumPy`.
+* **🔥 Key Features:**
+    * **🏋️ Squat Counter:** Tracks knee flexion/extension (Up/Down logic) for automated exercise counting.
+    * **🚨 Fall Detection:** Monitors spinal inclination; triggers a "Red Alert" HUD if a fall is detected (>45° tilt).
+    * **🖥️ Cyberpunk HUD:** Custom-drawn futuristic overlay with high-contrast visibility and FPS logging.
+* **📍 Location:** `TitanFocus_YOLO/main.py`
 
-## 🛠️ Tech Stack
+### 2. [Hand Gesture Recognition](./Hand_Gesture_Recognition) 🖐️
+**Touchless Virtual Interface Prototype.** A lightweight gesture control system capable of tracking 21 hand landmarks to identify specific poses. Ideal for kiosk control or sign language translation.
 
-* **Language:** Python
-* **Computer Vision:** OpenCV (`cv2`)
-* **ML Pipeline:** MediaPipe (`mediapipe`)
-* **Math:** NumPy (for vector calculations, if applicable)
+* **🧠 Tech Stack:** `MediaPipe Hands`, `OpenCV`.
+* **✨ Key Features:**
+    * **Real-time Tracking:** Low-latency detection of single/multiple hands.
+    * **Gesture Logic:** Geometric analysis to distinguish "Open Palm," "Fist," and directional pointing.
+* **📍 Location:** `Hand_Gesture_Recognition/hand_gesture.py`
 
-## ⚙️ Installation
+---
+
+## 🛠️ Installation & Setup
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/repo-name.git](https://github.com/your-username/repo-name.git)
-    cd repo-name
+    git clone [https://github.com/vishva2410/Computer-Vision-and-Live-Tracking-Projects.git](https://github.com/vishva2410/Computer-Vision-and-Live-Tracking-Projects.git)
+    cd Computer-Vision-and-Live-Tracking-Projects
     ```
 
-2.  **Create a Virtual Environment (Optional but Recommended)**
+2.  **Install Dependencies**
+    This repo supports both YOLO (TitanPose) and MediaPipe (Hand Gesture).
     ```bash
-    python -m venv venv
-    # Windows
-    venv\Scripts\activate
-    # macOS/Linux
-    source venv/bin/activate
+    pip install opencv-python numpy ultralytics mediapipe
     ```
 
-3.  **Install Dependencies**
-    ```bash
-    pip install opencv-python mediapipe numpy
-    ```
+## 🚀 How to Run
 
-## 🏃 Usage
-
-1.  Connect your webcam.
-2.  Run the main script:
-    ```bash
-    python [your_script_name.py]
-    ```
-    *(Replace `[your_script_name.py]` with your actual filename, e.g., `main.py` or `hand_gesture.py`)*
-
-3.  **Controls:**
-    * Press **'q'** or **'Esc'** to exit the application.
-
-## 🧠 How It Works
-
-1.  **Frame Capture:** OpenCV captures video frames from the webcam.
-2.  **RGB Conversion:** Frames are converted from BGR (OpenCV default) to RGB (MediaPipe requirement).
-3.  **Processing:** MediaPipe processes the frame to identify hand landmarks.
-4.  **Drawing & Logic:**
-    * If hands are detected, landmarks are drawn on the frame.
-    * The relative coordinates of the fingertips and knuckles are compared to determine the gesture (e.g., if the tip of the index finger is below the knuckle, the finger is folded).
-5.  **Display:** The processed frame with overlays is shown to the user.
-
-
-
-## 📂 Project Structure
-
-```text
-├── [your_script_name.py]    # Main source code
-├── requirements.txt         # List of dependencies
-├── README.md                # Project documentation
-└── output/                  # (Optional) Screenshots or recordings
-=======
-# 👁️ Computer Vision & Live Tracking Projects
-
-**Author:** Vishva  
-**Status:** Active Research
-
-### 1. [TitanPose Advanced](./TitanFocus_YOLO) ⚡
-**Military-Grade Human Behavior Analysis.**
-* **Tech:** YOLOv11, Vector Geometry, Cyberpunk UI.
-* **Features:** Squat Counting, Fall Detection, Real-time Alerts.
-* **Run:** `python TitanFocus_YOLO/main.py`
-
-### 2. [Hand Gesture Recognition](./Hand_Gesture_Recognition) 🖐️
-**Virtual Interface Control.**
-* **Tech:** MediaPipe Hands.
-* **Features:** 21-point Landmark Detection.
-* **Run:** `python Hand_Gesture_Recognition/hand_gesture.py`
-
->>>>>>> dd8f657 (Add TitanFocus YOLO posture & activity detection module)
+**To run the Advanced Body Tracker:**
+```bash
+python TitanFocus_YOLO/main.py
