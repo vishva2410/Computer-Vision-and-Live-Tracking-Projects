@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖐️ Hand Gesture Recognition System
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -79,3 +80,22 @@ This is a lightweight solution ideal for touchless interfaces, sign language tra
 ├── requirements.txt         # List of dependencies
 ├── README.md                # Project documentation
 └── output/                  # (Optional) Screenshots or recordings
+=======
+# 👁️ Computer Vision & Live Tracking Projects
+
+**Author:** Vishva  
+**Status:** Active Research
+
+### 1. [TitanPose Advanced](./TitanFocus_YOLO) ⚡
+**Military-Grade Human Behavior Analysis.**
+* **Tech:** YOLOv11, Vector Geometry, Cyberpunk UI.
+* **Features:** Squat Counting, Fall Detection, Real-time Alerts.
+* **Run:** `python TitanFocus_YOLO/main.py`
+
+### 2. [Hand Gesture Recognition](./Hand_Gesture_Recognition) 🖐️
+**Virtual Interface Control.**
+* **Tech:** MediaPipe Hands.
+* **Features:** 21-point Landmark Detection.
+* **Run:** `python Hand_Gesture_Recognition/hand_gesture.py`
+
+>>>>>>> dd8f657 (Add TitanFocus YOLO posture & activity detection module)
