@@ -32,6 +32,15 @@
     * **Gesture Logic:** Geometric analysis to distinguish "Open Palm," "Fist," and directional pointing.
 * **📍 Location:** `Hand_Gesture_Recognition/hand_gesture.py`
 
+### 3. [Gesture Racer 3D](./gesture-racer) 🏎️
+**Immersive Web-Based Hand Controlled Game.** A full 3D infinite racing game where you control a spaceship using hand gestures detected by your webcam.
+* **🧠 Tech Stack:** `Three.js` (R3F), `MediaPipe` (Web), `React`.
+* **🎮 Key Features:**
+    * **Hand Steering:** Move palm to fly.
+    * **Combat:** Make a **FIST** to shoot lasers.
+    * **Procedural World:** Infinite cities and enemies.
+* **📍 Location:** `gesture-racer/`
+
 ---
 
 ## 🛠️ Installation & Setup
