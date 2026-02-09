@@ -12,7 +12,7 @@ Welcome to the **Computer Vision & Live Tracking Suite**! This repository showca
 
 ##  Project Portfolio
 
-### 1. TitanPose Advanced (YOLOv11) ⚡
+### 1. TitanPose Advanced (YOLOv11) 
 A high-performance human behavior analysis system designed for gym analytics and safety monitoring. It uses vector geometry to analyze posture and movement in real-time.
 
 *   ** Tech Stack:** `YOLOv11`, `OpenCV`, `NumPy`, `Vector Math`.
@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-### 2. Hand Gesture Recognition 🖐️
+### 2. Hand Gesture Recognition 
 A lightweight gesture control system that tracks 21 hand landmarks to identify specific poses and directional movement.
 
 *   ** Tech Stack:** `MediaPipe Hands`, `OpenCV`.
@@ -58,7 +58,7 @@ A lightweight gesture control system that tracks 21 hand landmarks to identify s
 
 ---
 
-### 3. Gesture Racer 3D 🏎️
+### 3. Gesture Racer 3D 
 An immersive web-based infinite racing game where you control a spaceship using hand gestures.
 
 *   ** Tech Stack:** `Three.js` (R3F), `MediaPipe` (Web), `React`, `Zustand`.
