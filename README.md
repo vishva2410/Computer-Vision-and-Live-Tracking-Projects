@@ -1,4 +1,4 @@
-# 👁️ Computer Vision & Real-Time Tracking Suite
+# Computer Vision & Real-Time Tracking Suite
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![YOLOv11](https://img.shields.io/badge/YOLO-v11-purple?style=for-the-badge&logo=ultralytics)](https://github.com/ultralytics/ultralytics)
@@ -10,19 +10,19 @@ Welcome to the **Computer Vision & Live Tracking Suite**! This repository showca
 
 ---
 
-## 🚀 Project Portfolio
+##  Project Portfolio
 
 ### 1. TitanPose Advanced (YOLOv11) ⚡
 A high-performance human behavior analysis system designed for gym analytics and safety monitoring. It uses vector geometry to analyze posture and movement in real-time.
 
-*   **🧠 Tech Stack:** `YOLOv11`, `OpenCV`, `NumPy`, `Vector Math`.
-*   **🔥 Key Features:**
-    *   **🏋️ Squat Counter:** Automated exercise tracking using knee flexion analysis.
-    *   **🚨 Fall Detection:** Real-time monitoring of spinal inclination with "Red Alert" HUD.
-    *   **🖥️ Cyberpunk HUD:** Futuristic overlay with FPS logging and system status.
-*   **📍 Entry Point:** [`main.py`](./main.py)
+*   ** Tech Stack:** `YOLOv11`, `OpenCV`, `NumPy`, `Vector Math`.
+*   ** Key Features:**
+    *   ** Squat Counter:** Automated exercise tracking using knee flexion analysis.
+    *   ** Fall Detection:** Real-time monitoring of spinal inclination with "Red Alert" HUD.
+    *   **Cyberpunk HUD:** Futuristic overlay with FPS logging and system status.
+*   ** Entry Point:** [`main.py`](./main.py)
 
-#### 📊 Logic Flow
+####  Logic Flow
 ```mermaid
 graph TD
     A[Start Webcam] --> B[Capture Frame]
@@ -50,25 +50,25 @@ graph TD
 ### 2. Hand Gesture Recognition 🖐️
 A lightweight gesture control system that tracks 21 hand landmarks to identify specific poses and directional movement.
 
-*   **🧠 Tech Stack:** `MediaPipe Hands`, `OpenCV`.
-*   **✨ Key Features:**
+*   ** Tech Stack:** `MediaPipe Hands`, `OpenCV`.
+*   ** Key Features:**
     *   **Real-time Tracking:** Low-latency detection of single/multiple hands.
     *   **Pose Logic:** Geometric analysis to distinguish "Open Palm" vs "Fist".
-*   **📍 Entry Point:** [`hand_gesture.py`](./hand_gesture.py)
+*   ** Entry Point:** [`hand_gesture.py`](./hand_gesture.py)
 
 ---
 
 ### 3. Gesture Racer 3D 🏎️
 An immersive web-based infinite racing game where you control a spaceship using hand gestures.
 
-*   **🧠 Tech Stack:** `Three.js` (R3F), `MediaPipe` (Web), `React`, `Zustand`.
-*   **🎮 Key Features:**
+*   ** Tech Stack:** `Three.js` (R3F), `MediaPipe` (Web), `React`, `Zustand`.
+*   ** Key Features:**
     *   **Hand Steering:** Move palm to fly the spaceship.
     *   **Combat:** Close your hand into a **FIST** to shoot lasers.
     *   **Procedural World:** Infinite cities and dynamic enemy encounters.
-*   **📍 Location:** [`/gesture-racer`](./gesture-racer)
+*   ** Location:** [`/gesture-racer`](./gesture-racer)
 
-#### 🎮 Game Flow
+####  Game Flow
 ```mermaid
 graph TD
     A[Start Game] --> B[Access Webcam]
@@ -88,7 +88,7 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 *   Python 3.11+
@@ -114,7 +114,7 @@ npm run dev
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 **Run TitanPose Body Tracker:**
 ```bash
