@@ -1,4 +1,4 @@
-# Computer Vision & Real-Time Tracking Suite
+# Computer Vision & Real-Time Tracking Suite 
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![YOLOv11](https://img.shields.io/badge/YOLO-v11-purple?style=for-the-badge&logo=ultralytics)](https://github.com/ultralytics/ultralytics)
